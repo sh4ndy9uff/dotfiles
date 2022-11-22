@@ -89,7 +89,7 @@ set autoindent
 set smartindent
 
 " indent width
-"set shiftwidth=2
+set shiftwidth=2
 
 " change indent rule
 "set cinoptions+=:0
@@ -98,10 +98,10 @@ set smartindent
 set expandtab
 
 " show tab at files
-"set tabstop=2
+set tabstop=2
 
 " set tab charactors
-"set softtabstop=2
+set softtabstop=2
 
 "--------------------------------------
 " search setting
