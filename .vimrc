@@ -164,5 +164,13 @@ Plug 'previm/previm'
 Plug 'mattn/vim-maketable'
 Plug 'vim-jp/vimdoc-ja'
 Plug 'scrooloose/nerdtree'
+Plug 'thinca/vim-ref'
+Plug 'Shougo/neocomplete.vim'
+Plug 'marcus/rsense'
+Plug 'supermomonga/neocomplete-rsense.vim'
+Plug 'scrooloose/syntastic'
+Plug 'yuku-t/vim-ref-ri'
+Plug 'szw/vim-tags'
+Plug 'tpope/vim-endwise'
 
 call plug#end()
