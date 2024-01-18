@@ -5,6 +5,7 @@
 noremap init :<C-u>edit $MYVIMRC<CR>                           " init.vim呼び出し
 noremap <Space>s :source $MYVIMRC<CR>                           " init.vim読み込み
 noremap <Space>w :<C-u>w<CR>                                    " ファイル保存
+noremap <C-n> :Fern . -reveal=% -drawer -toggle -width=40<CR>   " fern呼び出し
 
 " Insert Mode
 
@@ -61,6 +62,7 @@ Jetpack 'rcarriga/nvim-notify' "animated notification
 Jetpack 'folke/noice.nvim' "nice notice
 Jetpack 'MunifTanjim/nui.nvim'
 Jetpack 'lambdalisue/fern.vim' "filer but not working...?
+Jetpack 'cohama/lexima.vim' "kakko toziru
 "Jetpack 'vlime/vlime', { 'rtp': 'vim' } "commom lisp hum...?
 "Jetpack 'dracula/vim', { 'as': 'dracula' } "a dark theme for vim
 "Jetpack 'tpope/vim-fireplace', { 'for': 'clojure' } "REPL test unit ...?
