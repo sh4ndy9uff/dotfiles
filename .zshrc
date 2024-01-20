@@ -26,3 +26,4 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
   fpath=(path/to/zsh-completions/src $fpath)
 zstyle ':completion:*:default' menu select=1 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
+eval "$(~/.rbenv/bin/rbenv init - zsh)"
