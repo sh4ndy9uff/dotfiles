@@ -4,6 +4,12 @@
 " system setting
 "--------------------------------------
 
+" disable swap file
+set noswapfile
+
+" disable backup file
+set nobackup
+
 " enable filetype indent/plugin detection
 filetype plugin indent on
 
