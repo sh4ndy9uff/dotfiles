@@ -27,3 +27,5 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 zstyle ':completion:*:default' menu select=1 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 eval "$(~/.rbenv/bin/rbenv init - zsh)"
+
+xinput set-button-map 14 1 2 3 4 5 6 7 8 9 10 11 2

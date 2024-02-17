@@ -26,5 +26,5 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-# xinput set-button-map 14 1 2 3 4 5 6 7 8 9 10 11 2
+xinput set-button-map 14 1 2 3 4 5 6 7 8 9 10 11 2
 export PATH="$HOME/.rbenv/bin:$PATH"
